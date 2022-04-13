@@ -21,17 +21,17 @@ Create a new local repository. If [**project name**] is provided, Git will CREAT
 
 DISPLAY the status of your **working directory**
 
-`$ git add [**file**]`
+`$ git add [file]`
 
-Add a file to the staging area. Use in place of the full file path to add all changed files from the current directory down into the directory tree.
+Add a file to the **staging area**. Use in place of the full file path to add all changed files from the current directory down into the directory tree.
 
 `$ git commit`
 
-Create a new commit from changes added to the staging area. The commit must have a message!
+Create a new commit from changes added to the **staging area**. The commit must have a message!
 
 `$ git rm [file]`
 
-Remove file from **working directory** and staging area.
+Remove file from **working directory** and **staging area**.
 
 `$ git stash pop`
 
@@ -58,7 +58,7 @@ Join specified [from name] branch into your current branch.
 
 Remove selected branch, if it is already merged into any other. 
 
-### Review of your work
+### 05 Review of your work
 
 `$ git log [-n count]`
 
